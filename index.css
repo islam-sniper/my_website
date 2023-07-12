@@ -44,7 +44,6 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    blackguard-color: #000;
     background: url(a.png) no-repeat;
     background-size: cover;
     background-position: center;
@@ -211,6 +210,7 @@ section{
     }
     section{
         padding: 80px 20px;
+        background: url(a.png) no-repeat;
     }
     .main h2{
         font-size: 1em;
@@ -222,9 +222,6 @@ section{
         flex-direction: column;
         align-items: center;
     }
-    .main{
-        background: url(a.png) no-repeat;
-        }
 }
 @media (max-width:641px){
     body{
@@ -236,16 +233,10 @@ section{
     .main h3{
     font-size: 1.4em;
     }
-    .main{
-        background: url(a.png) no-repeat;
-    }
 }
 @media (max-width:300px){
     body{
     font-size: 10px;
     }
-    .main{
-        background: url(a.png) no-repeat;
-        }
 }
 
