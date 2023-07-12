@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    background-color:black;
 }
 header{
     background-color: rgb(128, 190, 75);
@@ -45,6 +44,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
+    blackguard-color: #000;
     background: url(a.png) no-repeat;
     background-size: cover;
     background-position: center;
