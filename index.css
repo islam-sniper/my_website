@@ -237,5 +237,8 @@ section{
     body{
     font-size: 10px;
     }
+    .main{
+        background: url(b.png) no-repeat;
+        }
 }
 
