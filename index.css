@@ -221,6 +221,9 @@ section{
         flex-direction: column;
         align-items: center;
     }
+    .main{
+        background: url(a.png) no-repeat;
+        }
 }
 @media (max-width:641px){
     body{
@@ -231,6 +234,9 @@ section{
     }
     .main h3{
     font-size: 1.4em;
+    }
+    .main{
+        background: url(a.png) no-repeat;
     }
 }
 @media (max-width:300px){
