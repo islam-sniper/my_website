@@ -97,7 +97,7 @@ section{
 .title{
     display: flex;
     justify-content: center;
-    color: blue;
+    color: rgb(0, 0, 0);
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -138,7 +138,7 @@ section{
     margin: 10px;
 }
 .projects{
-    background-color: rgb(65, 65, 150);
+    background-color: rgb(101, 26, 26);
 }
 .projects .content{
     margin-top: 30px;
