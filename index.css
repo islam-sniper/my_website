@@ -18,23 +18,29 @@ header{
 }
 .logo{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
+    transition: 0.7s ease;
 }
 .nav a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
     padding-left: 30px;
+    transition: 0.7s ease;
 }
 .logo:hover{
     color: red;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .nav a:hover{
     color: red;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 section{
     padding: 100px 200px;
@@ -44,7 +50,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(b1.png) no-repeat;
+    background: url(a.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -75,7 +81,7 @@ section{
     font-size: 1.1em;
     font-weight: 600;
     border-radius: 15px;
-    background-color: rgb(47, 109, 137);
+    background-color: rgb(128, 190, 75);
     letter-spacing: 1px;
     display: inline-block;
     padding: 0.9375em 2.1875em;
@@ -97,13 +103,13 @@ section{
 .title{
     display: flex;
     justify-content: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
 }
 .cards{
-    background-color: rgba(0, 0, 0, 0.161);
+    background-color: rgba(69, 99, 232, 0.98);
 }
 .content{
     display: flex;
@@ -138,7 +144,7 @@ section{
     margin: 10px;
 }
 .projects{
-    background-color: rgb(101, 26, 26);
+    background-color: rgb(230, 72, 72);
 }
 .projects .content{
     margin-top: 30px;
@@ -184,7 +190,7 @@ section{
     color: rgb(65, 65, 150);
 }
 .cards-contact{
-    background-color: #fff;
+    background-color: rgba(69, 99, 232, 0.98);
 }
 .footer{
     background-color: rgba(0, 0, 0, 0.767);
