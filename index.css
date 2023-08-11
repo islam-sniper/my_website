@@ -6,6 +6,10 @@
     box-sizing: border-box;
     scroll-behavior:smooth;
 }
+body{
+    background:url(a.png);
+
+}
 header{
     background:url(a.png);
     width: 100%;
@@ -100,9 +104,8 @@ section{
     transform: translate(-50%,-50%);
 }
 .main-btn:hover{
-    color: rgb(200, 196, 196);
+    color:rgba(255, 255, 255, 0.451);
     /* transform: scale(1.1); */
-    background-color: rgb(70, 124, 23);
 }
 .social-icons a{
     color: white;
@@ -112,7 +115,7 @@ section{
     margin-left: 25px;
 }
 .social-icons a:hover{
-    color: rgb(70, 124, 23);
+    color: rgba(255, 255, 255, 0.451);
 }
 .title{
     display: flex;
@@ -219,11 +222,11 @@ section{
 .footer{
     background:url(a.png);
     color: #fff;
-    padding: 2em;
+    padding: 1em;
     height: 80px;
     display: flex;
     justify-content: space-between;
-    padding: 20px 150px;
+    padding: 20px 200px;
 }
 .footer-title{
     font-size: 1.3em;
@@ -259,6 +262,25 @@ section{
 @media (max-width:641px){
     body{
         font-size: 12px;
+    }
+    .footer .social-icons{
+        display: flex;
+        padding-right: 8px;
+    }
+    .footer .social-icons a{
+        size: 3px;
+        padding: 0 3px;
+    }
+    .footer .footer-title{
+        padding-left: 8px;
+        font-size: 1em;
+        font-weight: 400;
+    
+    }
+    .footer{
+    background:url(a.png);
+    height: 50px;
+    padding: 10px 3px;
     }
     .card{
         width: 17em;
